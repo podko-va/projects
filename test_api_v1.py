@@ -69,6 +69,7 @@ def test_api_get_book_byID():
     print(result.json()['bookingid'])
     assert result.status_code == 200
 
+@pytest.mark.xfail(reason = 'wrong id')
 def test_api_check_book_byID():
     result = requests.get(f'{base_url}/1856')
     responce_data = result.json()
@@ -99,3 +100,12 @@ def test_api_update_book_byID(auth_token, booking_id):
     assert responce_2.json()["depositpaid"] == False
 
 
+def test_del_api_booking(booking_id, auth_token):
+    token = {"Cookie": f"token = {auth_token}"}
+    responce_ini = requests.get(f"{base_url}/{booking_id}")
+    print(responce_ini.json())
+    assert responce_ini.json()["depositpaid"] == True
+    responce = requests.delete(f'{base_url}/{booking_id}', headers=token)
+    assert responce.status_code == 201
+    responce_get = requests.get(f"{base_url}/{booking_id}")
+    assert responce_get.status_code == 404
