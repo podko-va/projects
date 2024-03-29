@@ -23,4 +23,4 @@ To view the website, open the index.html or index_3day.html file in a web browse
 Feel free to customize and enhance this website according to your needs. Happy coding!
 
 
-![image](https://github.com/podko-va/projects/assets/70754942/f9003153-f920-4baa-973e-0e287b785496)
+
