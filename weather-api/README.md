@@ -21,4 +21,6 @@ To view the website, open the index.html or index_3day.html file in a web browse
 - The index_3day.html page will show the weather forecast for the next 3 days.
 
 Feel free to customize and enhance this website according to your needs. Happy coding!
-![Alt text](image.png)
+
+
+
