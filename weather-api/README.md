@@ -23,4 +23,9 @@ To view the website, open the index.html or index_3day.html file in a web browse
 Feel free to customize and enhance this website according to your needs. Happy coding!
 
 
-
+<p align="left">
+ <img width="200px" src="main.png" alt="qr"/>
+</p>
+<p align="left">
+ <img width="200px" src="3day.png" alt="qr"/>
+</p>
