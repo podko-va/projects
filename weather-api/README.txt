@@ -20,4 +20,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-You can clone this repository and use it to create your own static website. All files are ready to go, just add your content and customize as needed.
+You can clone this repository and use it to create your own static website. 
+All files are ready to go, just add your content and customize as needed.
